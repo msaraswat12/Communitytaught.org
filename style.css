@@ -29,8 +29,10 @@ nav {
   font-size: 25px;
   border: 1px outset rgb(0, 0, 0);
   background-color: rgb(129, 163, 218);
-  padding: 0.4%;
+  padding: 0.1%;
   border-radius: 40px;
+  animation: glow 2s ease-in-out infinite;
+  margin: 2%;
 }
 
 /* Main Content Styles */
@@ -39,7 +41,7 @@ nav {
   top: 45%;
   right: 0;
   transform: translate(0, -50%); /* Center vertically */
-  margin-right: 6%;
+  margin-right: 15%;
   animation: glow 2s ease-in-out infinite;
 }
 
@@ -48,9 +50,11 @@ nav {
 p {
   font-size: 20px;
   color: #f1f3f6;
-  padding-right: 20%;
+  padding-right: 30%;
   padding-left: 1%;
+  
   text-align: center;
+
   
 }
 
@@ -64,6 +68,7 @@ iframe
     border: solid orange;
     border-radius: 15px;
     animation: glow 2s ease-in-out infinite;
+    padding:0.5%;
   
 }
 
