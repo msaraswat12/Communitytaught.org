@@ -138,6 +138,13 @@ button {
     padding-bottom: 10vh; /* Add space at the bottom for the button */
   }
 }
+button:hover,
+   button:focus 
+   {
+   background-color: rgb(65, 208, 233);
+   color: rgb(18, 243, 232);
+   }
+
 
 
 
@@ -194,13 +201,7 @@ button {
 
 
 
-   button:hover,
-   button:focus 
-   {
-   background-color: rgb(65, 208, 233);
-   color: rgb(18, 243, 232);
-   }
-
+   
   
   
 
