@@ -32,7 +32,7 @@ nav {
   padding: 0.1%;
   border-radius: 40px;
   animation: glow 2s ease-in-out infinite;
-  margin: 2%;
+  margin: 0.5%;
 }
 
 /* Main Content Styles */
@@ -68,7 +68,7 @@ iframe
     border: solid orange;
     border-radius: 15px;
     animation: glow 2s ease-in-out infinite;
-    padding:0.5%;
+    padding: 1%;
   
 }
 
