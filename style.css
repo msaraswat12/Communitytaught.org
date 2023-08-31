@@ -68,7 +68,7 @@ iframe
     border: solid orange;
     border-radius: 15px;
     animation: glow 2s ease-in-out infinite;
-    padding: 1%;
+    padding:1%;
   
 }
 
@@ -115,29 +115,36 @@ button {
 @media (max-width: 768px) {
   /* Adjust styles for smaller screens */
   h1 {
-      font-size: 24px;
+      font-size: 25px;
   }
   nav {
-      font-size: 20px;
+      font-size: 15px;
+      margin: 10%;
   }
   p {
-      font-size: 16px;
+      font-size: 15px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   /* Adjust styles for screens with a maximum width of 768px (typical for tablets and mobile devices) */
   .main {
-    position: static; /* Change to static positioning for a normal flow layout */
-    transform: none; /* Remove the vertical centering transform */
-    margin: 0; /* Reset margins */
-    animation: none; /* Disable the animation or adjust it for mobile if needed */
+    position: absolute;
+  top: 60%;
+  right: 0;
+  transform: translate(0, -40%); /* Center vertically */
+  margin-right: 0.3%;
+  animation: glow 2s ease-in-out infinite;
+  max-width: 27.5%;
+  max-height: 20%;
+
+  
   }
 
 
   @media (max-width: 768px) {
     iframe {
-      width: 100%;
+      width: 60%;
       height: 100%;
     }
   }
