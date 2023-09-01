@@ -7,6 +7,11 @@ body {
 background: linear-gradient(to right,rgb(0, 0, 0),rgb(97, 74, 25));
 background-repeat: no-repeat;
 background-attachment: fixed;
+background-image: url("Capture.PNG");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover ;
 }
 
 /* Header Styles */
@@ -14,12 +19,14 @@ h1 {
   text-align: center;
   margin: 2%;
   border: 2px outset rgb(221, 214, 214);
-  background-color: rgb(238, 169, 40);
+  background: linear-gradient( to right,rgb(36, 128, 41),rgb(99, 194, 194));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: 'Times New Roman', Times, serif;
-  text-shadow: 1px 1px;
   padding: 0.5%;
   border-radius: 25px;
-  animation: glow 2s ease-in-out infinite;
+  animation: glow 5s ease-in-out infinite;
+  color: rgb(32, 27, 4);
 }
 
 /* Navigation Styles */
@@ -30,11 +37,20 @@ nav {
   font-weight: bold;
   font-size: 25px;
   border: 1px outset rgb(0, 0, 0);
-  background-color: rgb(129, 163, 218);
+  background: linear-gradient( to left,rgb(216, 76, 76),rgb(198, 226, 226));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   padding: 0.1%;
   border-radius: 40px;
-  animation: glow 2s ease-in-out infinite;
+  animation: glow 5s ease-in-out infinite;
   margin: 0.5%;
+  color: black;
+}
+
+nav > a {
+
+  color: rgb(100, 4, 255);
+  
 }
 
 /* Main Content Styles */
@@ -51,13 +67,15 @@ nav {
 /* Paragraph Styles */
 p {
   font-size: 20px;
-  color: #f1f3f6;
+  color: #edf0f7;
   padding-right: 30%;
   padding-left: 1%;
   
   text-align: justify;
+  font-style: oblique;
+  font-weight: 500;
+  font-weight: bold;
 
-  
 }
 
   /* Improved iframe Styles */
@@ -70,7 +88,7 @@ iframe
     border: solid orange;
     border-radius: 15px;
     animation: glow 2s ease-in-out infinite;
-    padding:1%;
+    padding:0%;
   
 }
 
